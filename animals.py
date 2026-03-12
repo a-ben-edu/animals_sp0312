@@ -2,12 +2,22 @@ def main():
     while True:
         ## Skriv ut menyvalen
         print("1. Cat")
+        print("2. Dog")
+        print("3. Cow")
+        print("4. Horse")
         print("Enter x to exit")
 
         choice = input("Enter your selection")
         match choice.lower():
             case '1': #Cat-sound
                 print("Mjau, mjau")
+            case '2': #Dog-sound
+                print("Voff, voff")
+            case '3': #Cow-sound
+                print("Muuu, muuu")
+            case '4': #Horse-sound
+                print("Neigh, neigh")
+
             case 'x': #Exit
                 break
             case _:

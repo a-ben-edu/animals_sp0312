@@ -1,7 +1,9 @@
 def main():
     while True:
         ## Skriv ut menyvalen
-        print("1. Cat")
+        print("1. Katt")
+        print("2. Hund")
+        print("3. Kanin")
         print("Enter x to exit")
 
         choice = input("Enter your selection")
